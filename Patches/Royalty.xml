@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+	  <mods>
+      <li>Royalty</li>
+	  </mods>
+    <match Class="PatchOperationAdd">
+		<xpath>/Defs/Plants_Wild[defName="Plant_TreeAnima"]/plant</xpath>
+		<value>
+			<harvestedThingDef>WoodLogAnima</harvestedThingDef>
+		</value>
+    </match>
+	</Operation>
+
+</Patch>
