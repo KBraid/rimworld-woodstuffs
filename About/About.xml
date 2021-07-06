@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <packageId>KBraid.woodstuffs</packageId>
+  <name>Wood Stuffs</name>
+  <author>K'Braid</author>
+  <supportedVersions>
+    <li>1.2</li>
+    <li>1.1</li>
+  </supportedVersions>
+  <description>
+  </description>
+  <loadAfter>
+    <li>Ludeon.Rimworld</li>
+  </loadAfter>
+</ModMetaData>
