@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/Plants_Bases[Name="TreeBase"]/plant</xpath>
+				<value>
+					<harvestedThingDef>WoodLog</harvestedThingDef>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/Plants_Wild_Temperate[defName="Plant_TreeOak"]/plant</xpath>
+				<value>
+					<harvestedThingDef>WoodLog</harvestedThingDef>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/Plants_Wild_Temperate[defName="Plant_TreePoplar"]/plant</xpath>
+				<value>
+					<harvestedThingDef>WoodLogPoplar</harvestedThingDef>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/Plants_Wild_Temperate[defName="Plant_TreePine"]/plant</xpath>
+				<value>
+					<harvestedThingDef>WoodLogPine</harvestedThingDef>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/Plants_Wild_Temperate[defName="Plant_TreeBirch"]/plant</xpath>
+				<value>
+					<harvestedThingDef>WoodLogBirch</harvestedThingDef>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/Plants_Wild_Arid[defName="Plant_SaguaroCactus"]/plant</xpath>
+				<value>
+					<harvestedThingDef>WoodLogSaguaro</harvestedThingDef>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				 <xpath>/Defs/Plants_Wild_Arid[defName="Plant_TreeDrago"]/plant</xpath>
+				<value>
+					<harvestedThingDef>WoodLogDrago</harvestedThingDef>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/Plants_Wild_Tropical[defName="Plant_TreeTeak"]/plant</xpath>
+				<value>
+					<harvestedThingDef>WoodLogTeak</harvestedThingDef>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/Plants_Wild_Tropical[defName="Plant_TreeCecropia"]/plant</xpath>
+				<value>
+					<harvestedThingDef>WoodLogCecropia</harvestedThingDef>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/Plants_Wild_Tropical[defName="Plant_TreePalm"]/plant</xpath>
+				<value>
+					<harvestedThingDef>WoodLogPalm</harvestedThingDef>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/Plants_Wild_Tropical[defName="Plant_TreeBamboo"]/plant</xpath>
+				<value>
+					<harvestedThingDef>WoodLogBamboo</harvestedThingDef>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/Plants_Wild_Swamp[defName="Plant_TreeWillow"]/plant</xpath>
+				<value>
+					<harvestedThingDef>WoodLogWillow</harvestedThingDef>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/Plants_Wild_Swamp[defName="Plant_TreeCypress"]/plant</xpath>
+				<value>
+					<harvestedThingDef>WoodLogCypress</harvestedThingDef>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/Plants_Wild_Swamp[defName="Plant_TreeMaple"]/plant</xpath>
+				<value>
+					<harvestedThingDef>WoodLogMaple</harvestedThingDef>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
