@@ -6,7 +6,7 @@
       <li>Royalty</li>
 	  </mods>
     <match Class="PatchOperationAdd">
-		<xpath>/Defs/Plants_Wild[defName="Plant_TreeAnima"]/plant</xpath>
+		<xpath>/Defs/ThingDef[defName="Plant_TreeAnima"]/plant</xpath>
 		<value>
 			<harvestedThingDef>WoodLogAnima</harvestedThingDef>
 		</value>
